@@ -7,3 +7,14 @@ This version uses mongoid
 * mongo v. 2.4.6 
 * Ruby v. 2.1.2
 * Rails v. 2.3.15
+
+Abilities
+===============================================================
+To create a new ability run
+rails g cancan:ability
+
+Uploaders
+===============================================================
+gem install carrierwave
+rails generate uploader Avatar
+
