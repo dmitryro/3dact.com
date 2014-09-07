@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.15'
+gem 'rails', '3.2.16'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -18,6 +18,11 @@ gem 'rails', '3.2.15'
 
    gem 'uglifier', '>= 1.0.3'
  end
+
+ group :development do
+   gem 'capistrano-rails', '~> 1.1.1'
+ end
+ gem 'capistrano'
  gem 'cancan'
  gem 'mongoid'
  gem 'mongo_mapper'
