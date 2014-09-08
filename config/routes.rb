@@ -1,4 +1,7 @@
 Threedact::Application.routes.draw do
+  resources :genres
+
+
   resources :roles
 
 

@@ -10,7 +10,7 @@ Threedact::Application.configure do
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = false
-
+  
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
@@ -19,7 +19,9 @@ Threedact::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
-
+ 
+  config.less.paths << "#{Rails.root}/lib/less/stylesheets"
+  config.less.compress = true
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 

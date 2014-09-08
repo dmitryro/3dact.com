@@ -23,6 +23,10 @@ Threedact::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  # Configure LESS
+  config.less.paths << "#{Rails.root}/lib/less/stylesheets"
+  config.less.compress = true
+ 
 
   # Do not compress assets
   config.assets.compress = false

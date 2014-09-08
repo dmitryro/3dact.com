@@ -42,6 +42,10 @@ gem 'country-select'
 gem 'carrierwave'
 gem 'rmagick', ' >= 2.13.2'
 gem 'multi_json'
+gem 'therubyracer'
+gem 'less-rails', '>=2.4.7'
+gem 'modernizr-rails'
+gem 'rest-client'
 #
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
