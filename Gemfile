@@ -16,6 +16,7 @@ group :development do
     gem 'capistrano-rails', '~> 1.1.1'
 end
 
+gem 'bower'
 gem 'capistrano'
 gem 'cancan'
 gem 'mongoid'
@@ -43,7 +44,10 @@ gem 'carrierwave'
 gem 'rmagick', ' >= 2.13.2'
 gem 'multi_json'
 gem 'therubyracer'
-gem 'less-rails', '>=2.4.7'
+gem 'less-rails', '>=2.5.0'
+gem 'bourbon'
+gem 'neat'
+gem 'compass'
 gem 'modernizr-rails'
 gem 'rest-client'
 #
