@@ -1,0 +1,13 @@
+{
+   "name": "3dact",
+   "version": "1.0.0",
+   "dependencies": {
+       "angular": "1.2.13",
+       "angular-resource": "1.2.13",
+       "jquery": "latest",
+       "jquery-ui": "latest",
+       "require": "latest",
+       "underscore": "latest"
+    },
+    "private": true
+}

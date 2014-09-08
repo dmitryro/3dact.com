@@ -17,6 +17,7 @@ end
 
 module Threedact
   class Application < Rails::Application
+    require "/var/www/vhosts/3dact.com/threedact/config/initializers/bower_rails.rb"
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -63,6 +64,7 @@ module Threedact
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-    I18n.enforce_available_locales = true
+    
+    I18n.enforce_available_locales = false
   end
 end
