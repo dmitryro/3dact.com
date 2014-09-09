@@ -25,11 +25,11 @@
     "examples",
     "src"
   ],
-  "_release": "4183d513f9",
+  "_release": "b5b853ce81",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "4183d513f9efd61377e5277fc478b1c9e403c274"
+    "commit": "b5b853ce81369d42644f37b64c2ff5a1dfc86a62"
   },
   "_source": "git://github.com/nathanfaucett/require.js.git",
   "_target": "*",

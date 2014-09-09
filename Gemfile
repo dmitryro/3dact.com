@@ -14,7 +14,7 @@ group :assets do
   gem 'angularjs-rails'
   gem 'angular-rails'
   gem 'angularjs_scaffold'
-
+  gem 'angular-rails-templates'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
